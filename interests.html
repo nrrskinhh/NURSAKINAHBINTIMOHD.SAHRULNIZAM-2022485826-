@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>My Personal Website</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <style>
+    body { background-image: url("resources/bg2.jpg"); } 
+     </style>
+
+
+<body>
+<body class="interests-page">
+ 
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Kinah's Hush-Hush</h1>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <a class="active" href="index.html">Home</a> 
+          <a href="my_story.html">My Story</a>
+          <a href="interests.html">Interests</a>
+          <a href="education.html">Education</a>
+          <a href="relatives.html">Relatives</a>
+          <a href="friends.html">Friends</a>
+          <a href="contact.html">Contact</a>
+        </ul>
+      </nav>
+
+<script>
+  var currentPage = window.location.href;
+  var navLinks = document.querySelectorAll('.nav-menu a');
+       navLinks.forEach(function(link) {
+       if (link.href === currentPage) {
+       link.classList.add('active');
+    }
+  });
+</script> 
+
+    </div>
+  </header>
+
+  <center>
+    <h1>My Interest</h1>
+
+  <div class="int-section">
+    <div class="int-frame">
+    <p><b>Favourite Movies</p></b>
+    <br><img src="resources/nur.jpg" width="25%" border="7" hspace="50px"></br>
+    <p><font face="Georgia">Movies and drama series has the power to transport us to different worlds, to make us laugh, cry, and feel deeply connected to characters and stories. One such drama series that has captured my heart is 'Nur,' directed by SharulEzad.</p>
+
+<p> Additionally, 'Nur' addresses important social issues such as discrimination, poverty, and the impact of modernization on traditional values. It showcases the values and tradition of Malay cultures.I find myself inspired by Nur's character and her journey. This drama has left a lasting impact on me, and I love its compelling storyline, memor able characters, and powerful themes.</p></font>
+
+</div>
+
+   <div class="int-frame">
+   <p><b>Favourite Book</p></b>
+   <br><img src="resources/pulang.jpg" width="25%" border="7" hspace="50px"></br>
+   <p><font face="Georgia">  My favourite book is "Pulang" by Lily Haslina Nasir. It is actually a novel that incredibly has had a profound impact on me.</p>
+
+  <p>Besides, 'Pulang' explores themes of love, loss, and the impact of war on families and communities. The novel also sheds light on lesser-known aspects of Malaysian history, providing valuable insights into the country's past and the struggles faced by its people.This novel has captured my heart with its compelling storyline, rich characters, and powerful themes, making it a literary masterpiece that I cherish deeply.</p></font>
+
+  </div>
+
+<div class="int-frame">
+  <p><b>Favourite Song</p></b>
+  <video controls width="100%" autoplay>
+  <source src="resources/happy.mp4" type="video/mp4">
+ </video>
+
+<br></br>
+<p><font face="Georgia">I love listening to "Happy" by Skinnyfabs because its positive lyrics and catchy melody always uplift my spirits.</p>
+
+<p>The song's joyful message reminds me to appreciate life's small moments and find happiness in everyday things. Btw its lively rhythm adds to the song's charm, making it enjoyable whether I'm relaxing or working on assignments. This simple yet powerful song never fails to make me smile and feel good.</p></font>
+
+</div>
+</center>
+
+
+  <footer class="footer">
+    <span>&copy; 2024 Sakinah Nizam • All Rights Reserved</span>
+  </footer>
+
+</body>
+</html>

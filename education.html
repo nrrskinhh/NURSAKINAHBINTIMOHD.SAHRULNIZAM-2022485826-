@@ -1,0 +1,109 @@
+<html>
+<head>
+ <title>My Personal Website</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <style>
+    body { background-image: url("resources/bg.jpg"); } 
+    .gallery img {
+     width: 100%; 
+     height: auto; 
+     border: 7px solid
+    }
+
+
+.int-frame video {
+  width: 100%; 
+  height: auto;
+  max-width: 500px; 
+  max-height: 400px; 
+}
+
+.video{
+   border: 7px solid;
+}
+
+  </style>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Kinah's Hush-Hush</h1>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <a class="active" href="index.html">Home</a> 
+          <a href="my_story.html">My Story</a>
+          <a href="interests.html">Interests</a>
+          <a href="education.html">Education</a>
+          <a href="relatives.html">Relatives</a>
+          <a href="friends.html">Friends</a>
+         <a href="contact.html">Contact</a>
+        </ul>
+      </nav>
+
+<script>
+ 
+  var currentPage = window.location.href;
+  var navLinks = document.querySelectorAll('.nav-menu a');
+       navLinks.forEach(function(link) {
+       if (link.href === currentPage) {
+       link.classList.add('active');
+    }
+  });
+</script> 
+
+    </div>
+  </header>
+
+ <div class="container">
+    <h1>My Education</h1>
+    
+    <div class="academic-background">
+      <h2>Academic Background</h2>
+      <p>My journey through education has been a fulfilling one, shaping both my intellect and character. Here are the milestones :</p>
+      <ul class="timeline">
+        <li>
+          <p><b>Diploma Informatik Perpustakaan</b> (2022-now)<br></p>
+           <i>Pursuing my diploma in Library Informatics at UiTM KEDAH. This program has exposed me to various aspects of library, information technology, and management.</i>
+        </li>
+
+        <li>
+          <p><b>Sekolah Menengah Agama Al-Khairiah</b> (2017-2021)<br></p>
+          <i>Completed my secondary education at Sekolah Menengah Agama Al-Khairiah, where I gained a strong foundation in both secular and religious studies. </i>
+        </li>
+
+        <li>
+          <p><b>Sekolah Kebangsaan Bandar Temerloh</b> (2011-2016)<br></p>
+           <i>Started my educational journey at Sekolah Kebangsaan Bandar Temerloh, where I developed fundamental skills and laid the groundwork for future learning.</i>
+        </li>
+      </ul>
+    </div>
+    
+<br></br>
+    <div class="school-pictures">
+      <h2>Memories</h2>
+      <p>Memories captured in photographs are cherished forever. Here are some snapshots from my old days :</p>
+      <div class="gallery">
+        <br><img src="resources/smakt.jpg" alt="Sekolah Menengah Agama Al-Khairiah"></br>
+        <br><img src="resources/smakt3.jpg"></br>
+       <br><img src="resources/uitmk.jpg"></br>
+
+   <br></br>
+   <div class="video">
+          <video controls width="100%">
+            <source src="resources/mds.mp4" type="video/mp4">
+          </video>
+        </div>
+
+
+       <br></br>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <span>&copy; 2024 Sakinah Nizam • All Rights Reserved</span>
+  </footer>
+</body>
+</html>
+

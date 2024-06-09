@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>My Personal Website</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <style>
+    body {
+      background-image: url("resources/bg1.jpg");
+      background-size: cover;
+    } 
+
+    .container {
+      position: relative; 
+    }
+
+    .story-container {
+      background-color: rgba(255, 255, 255, 0.7); 
+      padding: 20px;
+      border-radius: 10px;
+      position: absolute; 
+      top: 100%; 
+      left: 50%; 
+      transform: translateX(-50%); 
+      width: 70%; 
+      text-align: center; 
+    }
+
+    img {
+      display: block; 
+      margin: 0 auto; 
+      border: 7px solid; 
+
+    }
+
+
+   .section {
+     width: 100%;
+     padding: 50px 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     text-align: center;
+     background-attachment: fixed;
+   }
+
+  .section:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .section:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+  }
+
+ .bg {
+   max-width: 500px;
+   margin: 20px;
+
+</style>
+</head>
+ 
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Kinah's Hush-Hush</h1>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <a class="active" href="index.html">Home</a> 
+          <a href="my_story.html">My Story</a>
+          <a href="interests.html">Interests</a>
+          <a href="education.html">Education</a>
+          <a href="relatives.html">Relatives</a>
+          <a href="friends.html">Friends</a>
+          <a href="contact.html">Contact</a>
+        </ul>
+      </nav>
+    </div>
+
+
+<script>
+  var currentPage = window.location.href;
+  var navLinks = document.querySelectorAll('.nav-menu a');
+       navLinks.forEach(function(link) {
+       if (link.href === currentPage) {
+       link.classList.add('active');
+    }
+  });
+</script> 
+ 
+  
+  <div class="container">
+    <div class="section">
+      <div class="bg">
+        <h2>About Me</h2>
+        <img src="resources/me3.jpg" width="50%" border="2">
+
+<ul>
+<li type="circle">Assalamualaikum and hi!</li>
+<li type="circle">My name is Nur Sakinah binti Mohd. Sahrulnizam</li>
+<li type="circle"> I'm 20 years old</li>
+<li type="circle">I was born on 6th May 2004, and raised in Temerloh, Pahang</li>
+<li type="circle">Currently I'm a student at Universiti Teknologi Mara (UiTM)</li>
+<li type="circle"> I'm taking a Library Informatics Course</li>
+<li type="circle">Right now, I'm riding the waves of my 4th semester,</li>
+<li type="circle">soaking in all the learning and fun in university life😍👏! </li>
+</ul>
+   
+    </div>
+    </div>
+    </div>
+
+
+    <div class="section">
+      <div class="bg">
+        <h2>Introduction</h2>
+        <p style="font-family: Georgia"> Firstly, I want to clarify that no one was harmed in the making of this video. It's all in good fun😂! Laughter is the best medicine, right? So sit back, relax and enjoy getting to know a little more about me. Let's have a good time together!</p>
+        <div class="video">
+          <video controls width="50%">
+            <source src="resources/videointro.mp4" type="video/mp4">
+          </video>
+      </div>
+      </div>
+      </div>
+
+    <div class="section">
+      <div class="bg">
+        <h2>Current Life</h2>
+
+<ul>
+<li type="square">University life can be tough, but it's also a time for learning and growth</li>
+<li type="square">Having supportive family and friends is absolutely crucial</li>
+<li type="square">They make my journey more enjoyable and provide encouragement</li>
+<li type="square">Collaborating with friends on projects is not only rewarding but also strengthens our bonds</li>
+<li type="square">I believe these experiences,</li>
+<li type="square">along with the support of friends and family,</li>
+<li type="square">They all are shaping my university life and preparing me for the future</li>
+</ul>
+
+
+      <div class="int-frame">
+      <video controls style="width: 100%;">
+       <source src="resources/mev.mp4" type="video/mp4"></br>
+      </video>
+
+     </div>
+     </div>
+     </div>
+
+  <footer class="footer">
+    <span>&copy; 2024 Sakinah Nizam • All Rights Reserved</span>
+  </footer>
+</body>
+</html>
+
+</body>
+</html>

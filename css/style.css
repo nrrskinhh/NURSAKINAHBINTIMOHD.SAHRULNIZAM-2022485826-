@@ -1,0 +1,162 @@
+/* Global styles */
+
+body {
+  background-color: #222222;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+h1 {
+   font-family: Papyrus, sans-serif;
+}
+
+.container {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.content {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+
+/* Navbar styles */
+.navbar {
+  background-color: #555;
+  overflow: auto;
+  text-align: center;
+}
+
+.nav-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-menu a {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 10px;
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "Papyrus";
+}
+
+.nav-menu a:hover, .nav-menu .active {
+  color: #007BFF;
+}
+
+/* Footer styles */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+
+/* Homepage slideshow styles */
+.homepageslides {
+  text-align: center;
+}
+
+.homepageslides img {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: auto;
+  border: 7px solid; 
+}
+
+
+/* Specific styles for the "Interests" page */
+.interests-page .int-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.interests-page .int-frame {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  text-align: center;
+  max-width: 300px;
+}
+
+.interests-page .int-frame img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  margin-bottom: 10px;
+}
+
+.interests-page .int-description {
+  font-size: 16px;
+  color: brown;
+}
+
+/* Specific styles for the "Relatives" page */
+.relatives-page .rel-frame {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  text-align: center;
+  max-width: 300px;
+}
+
+.relatives-page .rel-frame img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  margin-bottom: 10px;
+}
+
+
+/* Specific styles for the "Friends" page */
+.friend-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.friend-frame {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.friend-frame img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  margin-bottom: 10px;
+}
+
+.friend-description {
+  font-size: 25px;
+  color: Black;
+}
